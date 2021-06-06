@@ -20,3 +20,20 @@ adoptada?
 H- ¿Qué sucede si cada uno utiliza el push -f?
 I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
 en DESARROLLO ?
+
+E- si, al no hacer un pull antes de hacer push da un problema de
+ compatibilidad y no permite pushear.
+
+F- problemas de compatibilidad entre commits.
+G-
+= podemos resolverlo a traves de git push -f o --force.
+esta solucion elimina el commit en el origin que es incompatible
+ con el commit que estamos pusheando.
+= otra opcion es hacer un pull de la ultima version
+ del repositorio , hacer los cambios y luego el push.
+la compatibilidad de los commits se resuelven en el momento.
+
+H-  si todos usamos el push -f va a quedar el commit del ultimo en hacer push.
+
+I- para lograr esto necesitamos hacer un pull y luego push con los datos de
+ cada uno y luego hacer un merge de TESTING a DESARROLLO.
